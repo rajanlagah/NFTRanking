@@ -1,4 +1,4 @@
-import JSON_DATA from "./formatedRarity.json";
+import JSON_DATA from "./formatedRarity_2.json";
 
 const max_len = 10;
 export default function handler(req, res) {
