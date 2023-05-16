@@ -19,24 +19,26 @@ export default function Home() {
           <span>
             Items <b>10.4k</b>
           </span>
-          ·
+          <span>·</span>
           <span>
             Created <b>Mar 2022</b>
           </span>
-          ·
+          <span>·</span>
           <span>
             Creator earnings <b>5%</b>
           </span>
-          ·
+          <span>·</span>
           <span>
             Chain <b>Ethereum</b>
           </span>
-          ·
+          <span>·</span>
           <span>
             Category <b>Gaming</b>
           </span>
         </div>
-        <ImgsByRankContianer/>
+        <br/>
+        <br/>
+        <ImgsByRankContianer />
       </div>
     </div>
   );
