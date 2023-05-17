@@ -8,7 +8,7 @@ const ImgCard = ({
   token_address,
   token_id
 }) => {
-  const [showRankMap, setshowRankMap] = useState(true);
+  const [showRankMap, setshowRankMap] = useState(false);
   const getImgData = () => {
     const data = JSON.parse(metadata);
     let imgURI;

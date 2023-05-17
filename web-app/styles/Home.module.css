@@ -50,7 +50,7 @@
 }
 .img-card:hover {
   /* height: 500px; */
-  transform: scaleY(1.5) scaleX(1.5);
+  transform: scaleY(1.5) scaleX(1.2);
   transition-duration: 0.4s;
   z-index: 9999;
   transform-origin: bottom;
@@ -95,6 +95,7 @@
   display: flex;
   width: 100%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .imposters-card-score {
   border: 1.5px solid #ccc;
